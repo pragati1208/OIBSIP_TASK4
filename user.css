@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Take up the full viewport height */
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center; /* Center the text within the h1 element */
+    color: #07001f;
+}
+body {
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px 20px; /* Add padding to make the button larger */
+    background: rgb(88, 160, 188);
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+.btn:hover {
+    background: rgba(17, 107, 143, 0.9); /* Slightly change the background color on hover */
+}
+a {
+    text-decoration: none; /* Remove underline */
+}

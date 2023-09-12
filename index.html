@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <center>Sign Up</center>
+        </h1>
+        <div class="wrapper">
+            <form onsubmit="signup(event)">
+                <div>
+                    <input type="text" name="" id="firstname" placeholder="Firstname">
+                </div>
+                <div>
+                    <input type="text" name="" id="lastname" placeholder="Lastname">
+                </div>
+                <div>
+                    <input type="text" name="" id="Email" placeholder="Email">
+                </div>
+                <div>
+                    <input type="password" name="" id="password" placeholder="Password">
+                </div>
+                <button type="submit" id="signupinp" value="Sign Up" class="btn">Sign Up</button>
+                <div class="member">
+                    Already A Member? <a href="/login.html">Login Here!</a> </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="app.js" type="module"></script>
+</html>
